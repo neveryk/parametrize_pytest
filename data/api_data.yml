@@ -1,0 +1,5 @@
+test_add_client:
+  #costomerCity_arr,name,hrContactName,hrContactPhone,cityId,cityName,AreaPath,serverId,serverName,declareUnitId
+  - [ ["123",'123'], ]
+  - [ 'QA1','e10adc3949ba59abbe56e057f20f883e','QA',0,-1 ,'192.168.1.10',"获取凭证-用户名错误" ]
+
