@@ -17,7 +17,7 @@ class Client:
         re_j=res.json()
         try:
             if re_j["message"] == '登录成功！':
-                return res
+                return re_j
         except Exception as e:
             logging.basicConfig(filename=config.src_path + '/log/syserror.log', level=logging.DEBUG,
                                 format='%(asctime)s %(filename)s[line:%(lineno)d]%(levelname)s %(message)s')
@@ -30,7 +30,7 @@ class Client:
         re_j=res.json()
         try:
             if re_j["message"] == '登录成功！':
-                return res
+                return re_j
         except Exception as e:
             logging.basicConfig(filename=config.src_path + '/log/syserror.log', level=logging.DEBUG,
                                 format='%(asctime)s %(filename)s[line:%(lineno)d]%(levelname)s %(message)s')

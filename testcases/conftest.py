@@ -19,7 +19,6 @@ def get_data(yaml_file_name):
 
 
 api_data = get_data('api_data.yml')
-print(api_data)
 
 HOST = data_yaml.load_ini(data_file_path)['host']['BASEURL']
-tenant = Tenant(HOST)
+ten = Tenant(HOST)

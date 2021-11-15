@@ -1,5 +1,5 @@
 test_add_client:
   #costomerCity_arr,name,hrContactName,hrContactPhone,cityId,cityName,AreaPath,serverId,serverName,declareUnitId
-  - [ ["123",'123'], ]
-  - [ 'QA1','e10adc3949ba59abbe56e057f20f883e','QA',0,-1 ,'192.168.1.10',"获取凭证-用户名错误" ]
+  - [["0AA6A188-4E89-4D2C-BF7C-7062FECFE3EE", "F6CB7802-8D00-4673-AA6E-C8A16ED83FB4"],"测-1","哈哈","110","F6CB7802-8D00-4673-AA6E-C8A16ED83FB4","北京市","0AA6A188-4E89-4D2C-BF7C-7062FECFE3EE,F6CB7802-8D00-4673-AA6E-C8A16ED83FB4","bccc8211-ab46-4e5b-812d-e9b8bd16f0e1","aa","92604b67-21dd-4888-b2cb-83bab26ac32f"]
+#  - [ 'QA1','e10adc3949ba59abbe56e057f20f883e','QA',0,-1 ,'192.168.1.10',"获取凭证-用户名错误" ]
 

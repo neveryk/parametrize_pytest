@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab3cf585-c66c-492f-8021-34309cf0bbd6" name="Default Changelist" comment="11-15-2">
-      <change afterPath="$PROJECT_DIR$/api/tenant.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/read_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/url_Splicing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/setting.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/api_data.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcases/test_hro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/api_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/api_data.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcases/test_hro.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_hro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,18 +51,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\py\parametrize_pytest" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\data" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\common" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\config" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -107,11 +122,31 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11-15-2" />
     <option name="LAST_COMMIT_MESSAGE" value="11-15-2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="421" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636977334921">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="421" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1636977334921" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1636978749050">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1636978749050" />
     <state x="2737" y="417" key="Github.ShareDialog" timestamp="1636965885330">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
