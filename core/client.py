@@ -10,4 +10,3 @@ class Client:
         self.session=requests.session()
 
     def post(self,url,jsondata=None,**kwargs):
-        
