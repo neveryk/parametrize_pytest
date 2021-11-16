@@ -6,7 +6,7 @@ class Tenant(Client):
         super(Tenant, self).__init__(host,**kwargs)
 
     def get_login(self):
-        data={'UserName': 'admin', 'Password': 'mmkj201509'}
+        data = {'UserName': 'admin', 'Password': 'mmkj201509'}
         data1 = json.dumps(data, ensure_ascii=False)
         header = {"Content-Type": "application/json; charset=utf-8"}
         res = self.post('/api/account/login', jsondata=data1, headers=header)

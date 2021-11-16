@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab3cf585-c66c-492f-8021-34309cf0bbd6" name="Default Changelist" comment="11-15-2">
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ab3cf585-c66c-492f-8021-34309cf0bbd6" name="Default Changelist" comment="11-15-3">
+      <change beforePath="$PROJECT_DIR$/api/tenant.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/tenant.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/api_data.yml" beforeDir="false" afterPath="$PROJECT_DIR$/data/api_data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcases/test_hro.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_hro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +52,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\py\parametrize_pytest" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\data" />
@@ -62,11 +62,8 @@
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\config" />
       <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Android-sdk\android-sdk\tools\Parame_pytest\public" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.tenant">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Parame_pytest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -88,8 +85,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tenant" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Parame_pytest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api/tenant.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tenant" />
         <item itemvalue="Python.conftest" />
       </list>
     </recent_temporary>
@@ -119,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636965938570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="11-15-3">
+      <created>1636968404039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636968404039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +162,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="11-15-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="11-15-2" />
+    <MESSAGE value="11-15-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="11-15-3" />
   </component>
   <component name="WindowStateProjectService">
     <state x="421" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1636977334921">
@@ -155,21 +182,21 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2664" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636965896849" />
-    <state width="1899" height="267" key="GridCell.Tab.0.bottom" timestamp="1636968368763">
+    <state width="1899" height="267" key="GridCell.Tab.0.bottom" timestamp="1637032985805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636968368763" />
-    <state width="1899" height="267" key="GridCell.Tab.0.center" timestamp="1636968368763">
+    <state width="1899" height="267" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637032985805" />
+    <state width="1899" height="267" key="GridCell.Tab.0.center" timestamp="1637032985805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636968368763" />
-    <state width="1899" height="267" key="GridCell.Tab.0.left" timestamp="1636968368763">
+    <state width="1899" height="267" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637032985805" />
+    <state width="1899" height="267" key="GridCell.Tab.0.left" timestamp="1637032985805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636968368763" />
-    <state width="1899" height="267" key="GridCell.Tab.0.right" timestamp="1636968368763">
+    <state width="1899" height="267" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637032985805" />
+    <state width="1899" height="267" key="GridCell.Tab.0.right" timestamp="1637032985805">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1636968368763" />
+    <state width="1899" height="267" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1637032985805" />
   </component>
 </project>
